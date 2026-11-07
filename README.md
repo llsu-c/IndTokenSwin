@@ -1,7 +1,6 @@
 # IndTokenSwin — How to Run
 
 Root: `C:/sand_box/exp_script`. Commands assume Windows + Git Bash.
-See [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) for the folders and files.
 
 ## Requirements
 
