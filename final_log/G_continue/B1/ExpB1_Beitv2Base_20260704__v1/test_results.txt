@@ -1,0 +1,27 @@
+Test Set Evaluation Results (12-class classification)
+Sample Count: 1604
+Best Val (combined_score): 0.9559
+
+Test Set Metrics:
+  macro_precision: 0.9010383851139405
+  macro_recall: 0.8823057886657434
+  macro_f1: 0.8877293474355575
+  weighted_precision: 0.9583899104104104
+  weighted_recall: 0.9607231920199502
+  weighted_f1: 0.9588857522367035
+  per_class_precision: [0.42857143 0.82978723 0.99350649 0.97619048 0.85620915 1.
+ 0.96774194 1.         0.93650794 0.98518519 0.99665552 0.84210526]
+  per_class_recall: [0.2        0.78       0.98709677 0.9609375  0.93571429 0.99333333
+ 0.98684211 1.         1.         0.98518519 0.99665552 0.76190476]
+  per_class_f1: [0.27272727 0.80412371 0.99029126 0.96850394 0.89419795 0.99665552
+ 0.9771987  1.         0.96721311 0.98518519 0.99665552 0.8       ]
+  kappa: 0.9556077055239087
+  accuracy: 96.07231920199501
+  mAUC: 0.992503679518059
+  combined_score: 0.948365740536399
+  loss: 0.6381056446295518
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_Beitv2Base_20260704__v1\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_Beitv2Base_20260704__v1\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_Beitv2Base_20260704__v1\predictions.csv

@@ -1,0 +1,27 @@
+Test Set Evaluation Results (12-class classification)
+Sample Count: 1604
+Best Val (combined_score): 0.9448
+
+Test Set Metrics:
+  macro_precision: 0.8931616296989603
+  macro_recall: 0.8964589917529561
+  macro_f1: 0.8869590641964292
+  weighted_precision: 0.9553666393303082
+  weighted_recall: 0.9532418952618454
+  weighted_f1: 0.9527006123289257
+  per_class_precision: [0.57142857 0.78151261 0.96815287 0.94444444 0.9296875  0.99333333
+ 0.98039216 0.96610169 0.94827586 0.99609375 0.99335548 0.64516129]
+  per_class_recall: [0.26666667 0.93       0.98064516 0.9296875  0.85       0.99333333
+ 0.98684211 0.99130435 0.93220339 0.94444444 1.         0.95238095]
+  per_class_f1: [0.36363636 0.84931507 0.97435897 0.93700787 0.8880597  0.99333333
+ 0.98360656 0.97854077 0.94017094 0.96958175 0.99666667 0.76923077]
+  kappa: 0.9472347592668131
+  accuracy: 95.32418952618454
+  mAUC: 0.9933400696668683
+  combined_score: 0.9449894045866791
+  loss: 0.6640553428576543
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_SWINv2_WindowTokenV2_Final_v2_20260629__v1\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_SWINv2_WindowTokenV2_Final_v2_20260629__v1\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_SWINv2_WindowTokenV2_Final_v2_20260629__v1\predictions.csv

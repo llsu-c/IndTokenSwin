@@ -1,0 +1,27 @@
+Test Set Evaluation Results (12-class classification)
+Sample Count: 1604
+Best Val (combined_score): 0.9536
+
+Test Set Metrics:
+  macro_precision: 0.9087740024270063
+  macro_recall: 0.8725084076795492
+  macro_f1: 0.8756854455614155
+  weighted_precision: 0.953497407248358
+  weighted_recall: 0.9544887780548629
+  weighted_f1: 0.9521960450733924
+  per_class_precision: [0.66666667 0.78095238 0.99328859 0.9469697  0.84353741 0.99337748
+ 0.97385621 1.         0.96666667 0.98141264 0.99665552 0.76190476]
+  per_class_recall: [0.13333333 0.82       0.95483871 0.9765625  0.88571429 1.
+ 0.98026316 1.         0.98305085 0.97777778 0.99665552 0.76190476]
+  per_class_f1: [0.22222222 0.8        0.97368421 0.96153846 0.8641115  0.99667774
+ 0.97704918 1.         0.97478992 0.97959184 0.99665552 0.76190476]
+  kappa: 0.9485661900844126
+  accuracy: 95.44887780548629
+  mAUC: 0.9969099963446967
+  combined_score: 0.9427409096099204
+  loss: 0.635277624313648
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_ConvNextTiny_20260704__v2\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_ConvNextTiny_20260704__v2\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\G_continue\B1\ExpB1_ConvNextTiny_20260704__v2\predictions.csv

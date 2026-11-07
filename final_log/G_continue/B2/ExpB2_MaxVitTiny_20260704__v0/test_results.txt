@@ -1,0 +1,27 @@
+Test Set Evaluation Results (12-class classification)
+Sample Count: 2682
+Best Val (combined_score): 0.9832
+
+Test Set Metrics:
+  macro_precision: 0.9715736815628734
+  macro_recall: 0.9606745729273873
+  macro_f1: 0.9656902826643176
+  weighted_precision: 0.9775201599811596
+  weighted_recall: 0.977255779269202
+  weighted_f1: 0.9772625897003412
+  per_class_precision: [0.98635744 0.96806967 0.9804878  0.958159   1.         0.98550725
+ 1.         1.         0.91666667 1.         0.86363636 1.        ]
+  per_class_recall: [0.96787149 0.98668639 0.99259259 0.98283262 0.992      0.98550725
+ 0.93859649 0.98684211 0.91666667 0.98484848 0.9047619  0.88888889]
+  per_class_f1: [0.97702703 0.97728938 0.98650307 0.97033898 0.99598394 0.98550725
+ 0.96832579 0.99337748 0.91666667 0.99236641 0.88372093 0.94117647]
+  kappa: 0.9722502562070635
+  accuracy: 97.72557792692021
+  mAUC: 0.9991843891841558
+  combined_score: 0.9796994128950511
+  loss: 0.5898041867074513
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\G_continue\B2\ExpB2_MaxVitTiny_20260704__v0\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\G_continue\B2\ExpB2_MaxVitTiny_20260704__v0\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\G_continue\B2\ExpB2_MaxVitTiny_20260704__v0\predictions.csv

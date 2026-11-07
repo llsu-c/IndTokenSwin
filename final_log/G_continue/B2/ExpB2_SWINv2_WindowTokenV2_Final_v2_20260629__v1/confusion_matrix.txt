@@ -1,0 +1,41 @@
+Confusion Matrix - ExpB2_SWINv2_WindowTokenV2_Final_v2 Test Set
+============================================================
+
+Class Names:
+  0: normal_clean_mucosa
+  1: ileocecal_valve
+  2: reduced_mucosal_view
+  3: pylorus
+  4: angiectasia
+  5: ulcer
+  6: foreign_body
+  7: lymphangiectasia
+  8: erosion
+  9: blood_fresh
+  10: erythema
+  11: polyp
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1      2      3      4      5      6      7      8      9     10     11
+   0:     776      1      0      0      1      1      0      0      0      0      0      0
+   1:      10    577      3      0      0      0      0      0      0      0      0      0
+   2:       1      3    410      0      0      0      0      0      0      0      0      0
+   3:      11      0      0    230      0      0      0      0      0      0      0      0
+   4:       0      0      0      1    132      0      1      0      1      0      0      0
+   5:       0      0      0      0      1    119      0      0      0      0      0      0
+   6:       1      0      0      1      0      0    119      1      0      0      0      0
+   7:       0      0      0      0      0      0      0    107      0      0      0      0
+   8:       1      0      0      4      2      1      0      0     64      0      0      0
+   9:       1      1      0      0      0      0      0      0      0     67      0      0
+  10:       1      0      0      0      0      0      0      0      0      0     20      0
+  11:       0      0      0      0      0      0      0      0      1      0      0     11
+
+Total Samples: 2682
+Accuracy: 98.14%
+Macro F1: 0.9756
+Weighted F1: 0.9813
+Macro AUC: 0.9996
+Combined Score: 0.9844
+Macro Precision: 0.9860
+Macro Recall: 0.9661
