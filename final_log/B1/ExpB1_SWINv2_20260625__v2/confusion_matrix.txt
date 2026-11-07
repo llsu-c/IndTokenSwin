@@ -1,0 +1,41 @@
+Confusion Matrix - ExpB1_SWINv2 Test Set
+============================================================
+
+Class Names:
+  0: barretts
+  1: esophagitis
+  2: polyp
+  3: ulcerative-colitis
+  4: normal-z-line
+  5: normal-pylorus
+  6: normal-cecum
+  7: retroflex-stomach
+  8: retroflex-rectum
+  9: bbps
+  10: dyed
+  11: stool
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1      2      3      4      5      6      7      8      9     10     11
+   0:       4      6      0      0      5      0      0      0      0      0      0      0
+   1:       4     75      0      0     21      0      0      0      0      0      0      0
+   2:       0      0    153      1      0      0      0      0      1      0      0      0
+   3:       1      1     26     97      0      0      3      0      0      0      0      0
+   4:       1     10      3      0    125      1      0      0      0      0      0      0
+   5:       0      0      0      0      0    150      0      0      0      0      0      0
+   6:       0      0      3      1      0      0    148      0      0      0      0      0
+   7:       0      0      0      0      0      0      0    115      0      0      0      0
+   8:       0      0      4      0      0      0      0      0     55      0      0      0
+   9:       0      0      0      2      0      0      0      0      0    260      0      8
+  10:       0      0      0      1      0      0      0      0      0      0    298      0
+  11:       0      0      0      0      0      0      0      0      2      2      0     17
+
+Total Samples: 1604
+Accuracy: 93.33%
+Macro F1: 0.8602
+Weighted F1: 0.9323
+Macro AUC: 0.9786
+Combined Score: 0.9241
+Macro Precision: 0.8665
+Macro Recall: 0.8608

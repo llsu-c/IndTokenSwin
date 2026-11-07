@@ -1,0 +1,39 @@
+Confusion Matrix - ExpB1_MaxVitTiny Test Set
+============================================================
+
+Class Names:
+  0: barretts
+  1: esophagitis
+  2: polyp
+  3: ulcerative-colitis
+  4: normal-z-line
+  5: normal-pylorus
+  6: normal-cecum
+  7: retroflex-stomach
+  8: retroflex-rectum
+  9: bbps
+  10: dyed
+  11: stool
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1      2      3      4      5      6      7      8      9     10     11
+   0:       0      5      0      0     10      0      0      0      0      0      0      0
+   1:       1     80      0      0     19      0      0      0      0      0      0      0
+   2:       0      0    150      1      0      0      2      0      2      0      0      0
+   3:       0      1      0    123      0      0      4      0      0      0      0      0
+   4:       0     10      0      0    130      0      0      0      0      0      0      0
+   5:       0      0      0      1      0    149      0      0      0      0      0      0
+   6:       0      0      0      2      0      0    149      0      0      0      1      0
+   7:       0      0      1      0      0      0      0    113      1      0      0      0
+   8:       0      0      0      2      0      0      0      0     57      0      0      0
+   9:       0      0      0      2      0      0      0      0      0    265      0      3
+  10:       0      0      1      0      0      0      0      0      0      0    298      0
+  11:       0      0      0      0      0      0      0      0      2      4      0     15
+
+Total Samples: 1604
+Accuracy: 95.32%
+Macro F1: 0.8552
+Weighted F1: 0.9493
+Macro AUC: 0.9956
+Combined Score: 0.9354

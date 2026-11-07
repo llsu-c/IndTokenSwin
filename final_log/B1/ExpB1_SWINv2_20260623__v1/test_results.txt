@@ -1,0 +1,27 @@
+Test Set Evaluation Results (12-class classification)
+Sample Count: 1604
+Best Val (combined_score): 0.9165
+
+Test Set Metrics:
+  macro_precision: 0.9191192352978136
+  macro_recall: 0.8641309842759464
+  macro_f1: 0.8531955414109058
+  weighted_precision: 0.9414071737234042
+  weighted_recall: 0.9351620947630923
+  weighted_f1: 0.9316296845674287
+  per_class_precision: [1.         0.7699115  0.81182796 0.96808511 0.87142857 0.98039216
+ 0.96688742 0.97457627 0.96551724 1.         0.99666667 0.72413793]
+  per_class_recall: [0.06666667 0.87       0.97419355 0.7109375  0.87142857 1.
+ 0.96052632 1.         0.94915254 0.96666667 1.         1.        ]
+  per_class_f1: [0.125      0.81690141 0.8856305  0.81981982 0.87142857 0.99009901
+ 0.96369637 0.98712446 0.95726496 0.98305085 0.99833055 0.84      ]
+  kappa: 0.926750465230446
+  accuracy: 93.51620947630923
+  mAUC: 0.9809351252944492
+  combined_score: 0.9228879012195887
+  loss: 0.7020913729300866
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\B1\ExpB1_SWINv2_20260623__v1\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\B1\ExpB1_SWINv2_20260623__v1\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\B1\ExpB1_SWINv2_20260623__v1\predictions.csv

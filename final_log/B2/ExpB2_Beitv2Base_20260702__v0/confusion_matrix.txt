@@ -1,0 +1,39 @@
+Confusion Matrix - ExpB2_Beitv2Base Test Set
+============================================================
+
+Class Names:
+  0: normal_clean_mucosa
+  1: ileocecal_valve
+  2: reduced_mucosal_view
+  3: pylorus
+  4: angiectasia
+  5: ulcer
+  6: foreign_body
+  7: lymphangiectasia
+  8: erosion
+  9: blood_fresh
+  10: erythema
+  11: polyp
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1      2      3      4      5      6      7      8      9     10     11
+   0:     737      6      1      1      0      0      1      0      1      0      0      0
+   1:       5    668      3      0      0      0      0      0      0      0      0      0
+   2:       0      3    402      0      0      0      0      0      0      0      0      0
+   3:       4      0      0    229      0      0      0      0      0      0      0      0
+   4:       1      0      0      0    124      0      0      0      0      0      0      0
+   5:       0      1      0      0      0    136      0      0      1      0      0      0
+   6:       2      1      0      0      0      0    111      0      0      0      0      0
+   7:       0      0      0      0      0      0      0     76      0      0      0      0
+   8:       1      0      0      1      0      1      0      0     69      0      0      0
+   9:       0      0      0      1      0      0      0      0      0     65      0      0
+  10:       0      0      0      0      0      0      0      0      1      0     20      0
+  11:       0      0      0      0      0      0      0      0      0      0      0      9
+
+Total Samples: 2682
+Accuracy: 98.66%
+Macro F1: 0.9867
+Weighted F1: 0.9866
+Macro AUC: 0.9997
+Combined Score: 0.9899

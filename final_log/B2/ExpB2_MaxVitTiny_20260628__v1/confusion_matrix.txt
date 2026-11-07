@@ -1,0 +1,39 @@
+Confusion Matrix - ExpB2_MaxVitTiny Test Set
+============================================================
+
+Class Names:
+  0: normal_clean_mucosa
+  1: ileocecal_valve
+  2: reduced_mucosal_view
+  3: pylorus
+  4: angiectasia
+  5: ulcer
+  6: foreign_body
+  7: lymphangiectasia
+  8: erosion
+  9: blood_fresh
+  10: erythema
+  11: polyp
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1      2      3      4      5      6      7      8      9     10     11
+   0:     753      7      5      2      2      0      0      0      1      0      0      0
+   1:       5    584      7      1      0      0      0      0      0      0      0      0
+   2:       0      1    434      0      0      0      0      0      0      0      0      0
+   3:       3      1      0    208      0      1      0      0      1      0      0      0
+   4:       1      0      0      0    127      0      0      0      0      0      0      0
+   5:       0      1      0      2      0    128      0      0      0      0      0      0
+   6:       0      0      0      0      0      0    136      0      0      0      0      0
+   7:       1      0      0      0      1      0      0     96      0      0      0      0
+   8:       3      0      0      5      1      0      0      0     65      0      0      0
+   9:       0      0      0      0      0      0      0      0      0     63      0      0
+  10:       2      0      0      0      0      0      0      0      0      0     32      0
+  11:       0      0      0      0      0      0      0      0      0      0      0      2
+
+Total Samples: 2682
+Accuracy: 97.99%
+Macro F1: 0.9796
+Weighted F1: 0.9798
+Macro AUC: 0.9994
+Combined Score: 0.9846

@@ -1,0 +1,21 @@
+Test Set Evaluation Results (binary classification) - C2_Beitv2Base_3to1
+Sample Count: 4970
+Best Val Bal-Acc: 0.8718
+
+Test Set Metrics:
+  auc: 0.9208362817027298
+  precision: 0.08297413793103449
+  recall: 0.875
+  f1: 0.1515748031496063
+  mcc: 0.23713280660946423
+  sens: 0.875
+  spec: 0.825686194182712
+  acc: 82.65593561368209
+  auc_f1_score: 0.2603023786374333
+  balanced_accuracy: 0.850343097091356
+  combined_sens_balacc: 0.862671548545678
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\C2\ExpC2_Beitv2Base_3to1_20260627__v1\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\C2\ExpC2_Beitv2Base_3to1_20260627__v1\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\C2\ExpC2_Beitv2Base_3to1_20260627__v1\predictions.csv
