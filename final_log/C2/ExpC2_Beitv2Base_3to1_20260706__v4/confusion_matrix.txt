@@ -1,0 +1,21 @@
+Confusion Matrix - ExpC2_Beitv2Base_3to1 Test Set
+============================================================
+
+Class Names:
+  0: no melanoma
+  1: melanoma
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:    3987    895
+   1:      13     75
+
+Total Samples: 4970
+AUC: 0.9171
+Accuracy: 81.73%
+Precision: 0.0773
+Recall (Sens): 0.8523
+Specificity: 0.8167
+F1: 0.1418
+MCC: 0.2226

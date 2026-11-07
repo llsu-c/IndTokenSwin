@@ -1,0 +1,21 @@
+Test Set Evaluation Results (binary classification) - C2_MaxVitTiny_3to1
+Sample Count: 4970
+Best Val Bal-Acc: 0.7548
+
+Test Set Metrics:
+  auc: 0.8517024505605005
+  precision: 0.04294478527607362
+  recall: 0.875
+  f1: 0.08187134502923976
+  mcc: 0.1437679452552932
+  sens: 0.875
+  spec: 0.648504711183941
+  acc: 65.25150905432595
+  auc_f1_score: 0.1493829957985039
+  balanced_accuracy: 0.7617523555919705
+  combined_sens_balacc: 0.8183761777959853
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\C2\ExpC2_MaxVitTiny_3to1_20260706__v3\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\C2\ExpC2_MaxVitTiny_3to1_20260706__v3\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\C2\ExpC2_MaxVitTiny_3to1_20260706__v3\predictions.csv

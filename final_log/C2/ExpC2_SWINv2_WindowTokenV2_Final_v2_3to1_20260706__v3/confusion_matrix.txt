@@ -1,0 +1,21 @@
+Confusion Matrix - ExpC2_SWINv2_WindowTokenV2_Final_v2_3to1 Test Set
+============================================================
+
+Class Names:
+  0: no melanoma
+  1: melanoma
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:    3775   1107
+   1:      22     66
+
+Total Samples: 4970
+AUC: 0.8447
+Accuracy: 77.28%
+Precision: 0.0563
+Recall (Sens): 0.7500
+Specificity: 0.7732
+F1: 0.1047
+MCC: 0.1625

@@ -1,0 +1,21 @@
+Test Set Evaluation Results (binary classification) - C2_ConvNextTiny_3to1
+Sample Count: 4970
+Best Val Bal-Acc: 0.8000
+
+Test Set Metrics:
+  auc: 0.8975899407843283
+  precision: 0.057462686567164176
+  recall: 0.875
+  f1: 0.10784313725490197
+  mcc: 0.18315671266489128
+  sens: 0.875
+  spec: 0.7412945514133552
+  acc: 74.36619718309859
+  auc_f1_score: 0.19255168205008413
+  balanced_accuracy: 0.8081472757066777
+  combined_sens_balacc: 0.8415736378533388
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\C2\ExpC2_ConvNextTiny_3to1_20260629__v1\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\C2\ExpC2_ConvNextTiny_3to1_20260629__v1\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\C2\ExpC2_ConvNextTiny_3to1_20260629__v1\predictions.csv

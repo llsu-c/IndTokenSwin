@@ -1,0 +1,21 @@
+Test Set Evaluation Results (binary classification) - C2_SWINv2_WindowTokenV2_Final_v2_3to1
+Sample Count: 4970
+Best Val Bal-Acc: 0.7726
+
+Test Set Metrics:
+  auc: 0.8660315258277159
+  precision: 0.048879837067209775
+  recall: 0.8181818181818182
+  f1: 0.09224855861627163
+  mcc: 0.15341106183624956
+  sens: 0.8181818181818182
+  spec: 0.7130274477673085
+  acc: 71.48893360160966
+  auc_f1_score: 0.1667365549399078
+  balanced_accuracy: 0.7656046329745634
+  combined_sens_balacc: 0.7918932255781908
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\C2\ExpC2_SWINv2_WindowTokenV2_Final_v2_3to1_20260624__v0\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\C2\ExpC2_SWINv2_WindowTokenV2_Final_v2_3to1_20260624__v0\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\C2\ExpC2_SWINv2_WindowTokenV2_Final_v2_3to1_20260624__v0\predictions.csv

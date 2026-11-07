@@ -1,0 +1,21 @@
+Confusion Matrix - ExpC2_MaxVitTiny_3to1 Test Set
+============================================================
+
+Class Names:
+  0: no melanoma
+  1: melanoma
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:    3162   1720
+   1:       7     81
+
+Total Samples: 4970
+AUC: 0.8519
+Accuracy: 65.25%
+Precision: 0.0450
+Recall (Sens): 0.9205
+Specificity: 0.6477
+F1: 0.0858
+MCC: 0.1559

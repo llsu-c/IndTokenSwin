@@ -1,0 +1,21 @@
+Confusion Matrix - ExpC2_ConvNextTiny_3to1 Test Set
+============================================================
+
+Class Names:
+  0: no melanoma
+  1: melanoma
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:    3555   1327
+   1:      14     74
+
+Total Samples: 4970
+AUC: 0.8701
+Accuracy: 73.02%
+Precision: 0.0528
+Recall (Sens): 0.8409
+Specificity: 0.7282
+F1: 0.0994
+MCC: 0.1668

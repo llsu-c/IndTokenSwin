@@ -1,0 +1,21 @@
+Test Set Evaluation Results (binary classification) - C2_SWINv2_3to1
+Sample Count: 4970
+Best Val Bal-Acc: 0.7348
+
+Test Set Metrics:
+  auc: 0.8103492421138878
+  precision: 0.03233935321293574
+  recall: 0.875
+  f1: 0.06237343053867963
+  mcc: 0.1064061296401558
+  sens: 0.875
+  spec: 0.528062269561655
+  acc: 53.420523138833
+  auc_f1_score: 0.11583121133185921
+  balanced_accuracy: 0.7015311347808275
+  combined_sens_balacc: 0.7882655673904138
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\C2\ExpC2_SWINv2_3to1_20260614__v0\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\C2\ExpC2_SWINv2_3to1_20260614__v0\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\C2\ExpC2_SWINv2_3to1_20260614__v0\predictions.csv
