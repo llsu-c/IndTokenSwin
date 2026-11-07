@@ -1,0 +1,21 @@
+Confusion Matrix - ExpG_SWINv2 Test Set
+============================================================
+
+Class Names:
+  0: non-polyp
+  1: polyp
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:     995    193
+   1:     101   1087
+
+Total Samples: 2376 (pos=1188, neg=1188)
+AUC: 0.9467
+Accuracy: 87.63%
+Precision: 0.8492
+Recall (Sens): 0.9150
+Specificity: 0.8375
+F1: 0.8809
+MCC: 0.7548

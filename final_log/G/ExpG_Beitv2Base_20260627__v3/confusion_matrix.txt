@@ -1,0 +1,21 @@
+Confusion Matrix - ExpG_Beitv2Base Test Set
+============================================================
+
+Class Names:
+  0: non-polyp
+  1: polyp
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:    1181      7
+   1:     230    958
+
+Total Samples: 2376 (pos=1188, neg=1188)
+AUC: 0.9836
+Accuracy: 90.03%
+Precision: 0.9927
+Recall (Sens): 0.8064
+Specificity: 0.9941
+F1: 0.8899
+MCC: 0.8150

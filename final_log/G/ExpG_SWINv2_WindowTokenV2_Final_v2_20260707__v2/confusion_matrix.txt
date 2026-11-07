@@ -1,0 +1,21 @@
+Confusion Matrix - ExpG_SWINv2_WindowTokenV2_Final_v2 Test Set
+============================================================
+
+Class Names:
+  0: non-polyp
+  1: polyp
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:    1131     57
+   1:     108   1080
+
+Total Samples: 2376 (pos=1188, neg=1188)
+AUC: 0.9647
+Accuracy: 93.06%
+Precision: 0.9499
+Recall (Sens): 0.9091
+Specificity: 0.9520
+F1: 0.9290
+MCC: 0.8619

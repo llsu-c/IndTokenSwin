@@ -1,0 +1,21 @@
+Confusion Matrix - ExpG_ConvNextTiny Test Set
+============================================================
+
+Class Names:
+  0: non-polyp
+  1: polyp
+
+Confusion Matrix (rows=true, cols=pred):
+
+           0      1
+   0:    1173     15
+   1:     197    991
+
+Total Samples: 2376 (pos=1188, neg=1188)
+AUC: 0.9770
+Accuracy: 91.08%
+Precision: 0.9851
+Recall (Sens): 0.8342
+Specificity: 0.9874
+F1: 0.9034
+MCC: 0.8314

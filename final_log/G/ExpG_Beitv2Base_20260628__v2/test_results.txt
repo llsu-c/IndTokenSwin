@@ -1,0 +1,24 @@
+Independent Test Set Evaluation Results
+============================================================
+
+[Independent Test Set] CVC+ETIS+ColonDB positive samples vs reserved negative samples (1:1 balanced)
+Sample Count: 2376 (pos 1188, neg 1188)
+Best Val AUC: 0.9981339810885265
+
+Test Set Metrics:
+  auc: 0.9766258261628632
+  precision: 0.9582542694497154
+  recall: 0.8501683501683501
+  f1: 0.9009812667261374
+  mcc: 0.818353781183693
+  sens: 0.8501683501683501
+  spec: 0.9629629629629629
+  acc: 90.65656565656566
+  auc_f1_score: 0.9372797720099961
+  balanced_accuracy: 0.9065656565656566
+  combined_sens_balacc: 0.8783670033670034
+
+Output Files:
+  Confusion Matrix (Image): C:\sand_box\exp_script\final_log\G\ExpG_Beitv2Base_20260628__v2\confusion_matrix.png
+  Confusion Matrix (Text): C:\sand_box\exp_script\final_log\G\ExpG_Beitv2Base_20260628__v2\confusion_matrix.txt
+  Predictions CSV: C:\sand_box\exp_script\final_log\G\ExpG_Beitv2Base_20260628__v2\predictions.csv
